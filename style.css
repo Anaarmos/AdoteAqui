@@ -1,0 +1,69 @@
+header {
+    background: #ffb400;
+    padding: 20px 0;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+img {
+    width: 20%;
+
+}
+
+img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: 2s
+}
+
+nav {
+    position: absolute;
+    top: 85px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 40px;
+}
+
+nav a {
+    text-transform: uppercase; 
+    color:#5c2d0a;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav a:hover {
+    color: #ff6000;
+    text-decoration: underline;
+    font-size: 24px;
+    -webkit-transition: 1s;
+}
+
+body {
+    background-image: url(cachorro6.jpg);
+    background-size: 100%;
+}
+
+.conteudo {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    margin: 20%;
+}
+
+footer {
+    background: #ffb400;
+    padding: 20px 0;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
